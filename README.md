@@ -16,12 +16,11 @@
 
 ### Instalação
 
-* Fazer Download deste repositorio e depois aplicar o comando: `docker pull eliseurm/jdk_tomcat_mysql`
-
-   (outra opção, você pode fazer o buil da imagem direto do repositorio Dockerfile: `docker build -t="eliseurm/jdk_tomcat_mysql" github.com/eliseurm/docker.jdk_tomcat_mysql`)
+* Fazer Download deste repositorio e fazer a imagem com buil deste Dockerfile: 
+   `docker build -t="eliseurm/jdk_tomcat_mysql" github.com/eliseurm/docker.jdk_tomcat_mysql`
 
 
 ### Uso
-
-    docker run -d --name web eliseurm/jdk_tomcat_mysql
+* Aplique o comando abaixo
+    `docker run -d --name web eliseurm/jdk_tomcat_mysql`
 
