@@ -23,7 +23,5 @@
 
 ### Uso
 
-#### Run `mysqld-safe`
-
     docker run -d --name web eliseurm/jdk_tomcat_mysql
 
